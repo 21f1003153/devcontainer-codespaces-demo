@@ -13,5 +13,5 @@
   },
   "postCreateCommand": "python -m pip install --upgrade pip && python -m pip install fastapi uvicorn pandas",
   "forwardPorts": [8000],
-  "remoteUser": "vscode"
+  "remoteUser": "root"
 }
