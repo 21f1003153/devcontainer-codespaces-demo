@@ -1,0 +1,17 @@
+{
+  "name": "ga2-afe6cf",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astral-sh.uv",
+        "ms-python.python"
+      ]
+    }
+  },
+  "postCreateCommand": "python -m pip install --upgrade pip && python -m pip install fastapi uvicorn pandas",
+  "forwardPorts": [8000],
+  "remoteUser": "vscode"
+}
